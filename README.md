@@ -10,3 +10,17 @@ Data flow:
 - step function runs analysis on the file using gltf-transform
 - ai summarisies the report
 - the report is given back to the user
+
+## Get it running
+
+First make sure you're in a terminal authed with aws creds
+
+Run the following commands:
+
+```
+pnpm i
+pnpm exec sst dev
+```
+
+Open localhost:3000 and drop a glb in the dropzone.
+You can then go into the step functions UI to see it processing
