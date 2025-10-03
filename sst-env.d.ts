@@ -9,7 +9,7 @@ declare module "sst" {
       "arn": string
       "type": "sst.aws.StepFunctions"
     }
-    "ValidateGltfFunction": {
+    "ReportGltfFunction": {
       "name": string
       "type": "sst.aws.Function"
     }
