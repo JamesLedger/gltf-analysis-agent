@@ -1,0 +1,25 @@
+{
+  "name": "gltf-analysis-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpm --filter tanstack-start-example-basic build",
+    "dev": "sst dev",
+    "deploy": "sst deploy --stage james-live",
+    "remove": "sst remove"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.4",
+  "dependencies": {
+    "prettier": "^3.6.2",
+    "sst": "3.17.14",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.153"
+  }
+}

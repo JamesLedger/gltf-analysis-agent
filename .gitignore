@@ -1,0 +1,8 @@
+node_modules/*
+
+# sst
+.sst
+
+# Next.js build output
+apps/ui/.next
+apps/ui/.open-next
