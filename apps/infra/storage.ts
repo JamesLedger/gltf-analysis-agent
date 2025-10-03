@@ -1,1 +1,1 @@
-export const gltfStorage = new sst.aws.Bucket("gltf-storage");
+export const gltfStorage = new sst.aws.Bucket("gltfStorage");

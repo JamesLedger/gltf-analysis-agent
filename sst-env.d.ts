@@ -5,10 +5,6 @@
 
 declare module "sst" {
   export interface Resource {
-    "gltf-storage": {
-      "name": string
-      "type": "sst.aws.Bucket"
-    }
     "gltf-validation": {
       "name": string
       "type": "sst.aws.Function"
@@ -16,6 +12,10 @@ declare module "sst" {
     "gltfAgentUi": {
       "type": "sst.aws.Nextjs"
       "url": string
+    }
+    "gltfStorage": {
+      "name": string
+      "type": "sst.aws.Bucket"
     }
   }
 }
