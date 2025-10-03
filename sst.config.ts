@@ -1,7 +1,5 @@
 /// <reference path="./.sst/platform/config.d.ts" />
 
-import { gltfAgentUi } from "./apps/infra/next";
-
 export default $config({
   app(input) {
     return {
@@ -18,9 +16,9 @@ export default $config({
   },
   async run() {
     await import("./apps/infra/storage");
-
+    await import("./apps/infra/sfn");
+    await import("./apps/infra/notifications");
     await import("./apps/infra/validation");
-
     await import("./apps/infra/next");
   },
 });

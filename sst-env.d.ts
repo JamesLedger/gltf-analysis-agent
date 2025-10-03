@@ -5,6 +5,14 @@
 
 declare module "sst" {
   export interface Resource {
+    "GltfAnalysisAgentSfn": {
+      "arn": string
+      "type": "sst.aws.StepFunctions"
+    }
+    "ValidateGltfFunction": {
+      "name": string
+      "type": "sst.aws.Function"
+    }
     "gltf-validation": {
       "name": string
       "type": "sst.aws.Function"

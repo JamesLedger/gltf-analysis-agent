@@ -1,5 +1,6 @@
 import { gltfStorage } from "./storage";
 
+// Creates a lambda function to validate the GLTF file
 export const gltfValidation = new sst.aws.Function("gltf-validation", {
   handler: "apps/validation/src/app.handler",
   runtime: "nodejs20.x",
